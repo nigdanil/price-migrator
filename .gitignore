@@ -1,0 +1,44 @@
+# Бинарники
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Билд-папки
+bin/
+build/
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+
+# Система
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+
+# Кэш и временные файлы Go
+*.out
+*.tmp
+*.bak
+
+# Go модульные файлы (необязательно игнорировать)
+go.sum
+
+# Конфиденциальные и локальные конфиги
+.env
+scraper.db
+
+# OS/Linux
+*.pid
+*.sock
+*.lock
+
+# Docker
+*.env.*
+docker-compose.override.yml
